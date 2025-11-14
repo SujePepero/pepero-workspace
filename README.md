@@ -93,7 +93,7 @@
    - 예시1: 관련이 없는 두 무역자재가 비슷한 시기에 무역량이 상승하는 경우
   <img width="1136" height="658" alt="image" src="https://github.com/user-attachments/assets/cccd426a-80b8-4a28-8557-abea714b026b" />
   <br>
-   - 예시2: 공행성쌍 상관관계가 클 것으로 추정되는 경우
+  - 예시2: 공행성쌍 상관관계가 클 것으로 추정되는 경우
      <img width="1136" height="658" alt="image" src="https://github.com/user-attachments/assets/ea838cae-f79f-48d3-883a-3900c2739341" />
      
 ---
@@ -107,13 +107,11 @@
 
 **8. 무역 거래 회수(seq)에 따른 아이템들 범주화 (seq-cat)**
     
-     - 40, 80을 기준으로 3 범주로 나눔: (seq_cnt_low,  seq_cnt_mid,  seq_cnt_high)
-
+    - 40, 80을 기준으로 3 범주로 나눔: (seq_cnt_low,  seq_cnt_mid,  seq_cnt_high)
  <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/8ec90157-6c3a-46ed-a2f2-58ae116a752d" />
 
     
-    - 각 범주에 포함되는 아이템들간의 상관관계
-    
+    - 각 범주에 포함되는 아이템들간의 상관관계 
        - 예시:   기준 item ID- 'ATLDMDBO' 높은 상관계를 갖는 item IDs - 'BTMOEMEP', 'DNMPSKTB', 'LRVGFDFM', 'QRKRBYJL', 'QVLMOEYE', 'VBYCLTYZ', 'XUOIQPFL' 7개 항목
    <img width="981" height="350" alt="image" src="https://github.com/user-attachments/assets/384411f6-8b1a-4eb8-afa2-6b398540934d" />
    <img width="711" height="577" alt="image" src="https://github.com/user-attachments/assets/f8532c14-ef69-4f88-affd-739607275598" />
@@ -123,14 +121,11 @@
 **9. 공행성쌍 데이터 변수 분포**
     
     - 한 item에 대한 following_item 갯수 분포 히스토그램:
-
 <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/2083bef3-0f19-4347-883e-875c98ddcfbf" />
 
-      - "best_lag 분포 히스토그램"
-      
+    - "best_lag 분포 히스토그램"
 <img width="568" height="452" alt="image" src="https://github.com/user-attachments/assets/84c3cac6-8160-4d41-9c53-7ff33b58068a" />
 
    - max_corr 분포 히스토그램
-
 <img width="577" height="451" alt="image" src="https://github.com/user-attachments/assets/ac895eac-2627-49ed-867e-5923e282c279" />
 
