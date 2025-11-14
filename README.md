@@ -18,7 +18,7 @@
 
 
 
-1. 무역량 상위 10개 품목
+** 1. 무역량 상위 10개 품목 **
    - <img width="986" height="535" alt="image" src="https://github.com/user-attachments/assets/1f0cc1fb-5a84-4964-97f8-ac1a31f90f8f" />
 ---
 2. 상관관계 히트맵
