@@ -77,9 +77,10 @@
 
 **8. 무역 거래 회수(seq)에 따른 아이템들 범주화 (seq-cat)**
     
-    - 40, 80을 기준으로 3 범주로 나눈다 ==> seq_cnt_low,  seq_cnt_mid,  seq_cnt_high
-    
-    <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/e940a40f-99a9-4b6c-bfdb-5f69ae8e361a" />
+     - 40, 80을 기준으로 3 범주로 나눔: (seq_cnt_low,  seq_cnt_mid,  seq_cnt_high)
+
+ <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/8ec90157-6c3a-46ed-a2f2-58ae116a752d" />
+
     
     - 각 범주에 포함되는 아이템들간의 상관관계
     
