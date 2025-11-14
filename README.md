@@ -90,9 +90,10 @@
 ---
 
 **6. 주목할만한 상관관계 케이스 조사**
-   - 예시1: 관련이 없는 두 무역자재가 비슷한 시기에 무역량이 상승하는 경우
+
+ - 예시1: 관련이 없는 두 무역자재가 비슷한 시기에 무역량이 상승하는 경우
   <img width="1136" height="658" alt="image" src="https://github.com/user-attachments/assets/cccd426a-80b8-4a28-8557-abea714b026b" />
-  <br>
+  
   - 예시2: 공행성쌍 상관관계가 클 것으로 추정되는 경우
      <img width="1136" height="658" alt="image" src="https://github.com/user-attachments/assets/ea838cae-f79f-48d3-883a-3900c2739341" />
      
@@ -119,13 +120,12 @@
 ---
 
 **9. 공행성쌍 데이터 변수 분포**
-    
-    - 한 item에 대한 following_item 갯수 분포 히스토그램:
+ - 한 item에 대한 following_item 갯수 분포 히스토그램:
 <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/2083bef3-0f19-4347-883e-875c98ddcfbf" />
 
-    - "best_lag 분포 히스토그램"
+ - "best_lag 분포 히스토그램"
 <img width="568" height="452" alt="image" src="https://github.com/user-attachments/assets/84c3cac6-8160-4d41-9c53-7ff33b58068a" />
 
-   - max_corr 분포 히스토그램
+ - max_corr 분포 히스토그램
 <img width="577" height="451" alt="image" src="https://github.com/user-attachments/assets/ac895eac-2627-49ed-867e-5923e282c279" />
 
