@@ -76,9 +76,13 @@
 ---
 
 **8. 무역 거래 회수(seq)에 따른 아이템들 범주화 (seq-cat)**
+    
     - 40, 80을 기준으로 3 범주로 나눈다 ==> seq_cnt_low,  seq_cnt_mid,  seq_cnt_high
+    
     <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/e940a40f-99a9-4b6c-bfdb-5f69ae8e361a" />
+    
     - 각 범주에 포함되는 아이템들간의 상관관계
+    
        - 예시:   기준 item ID- 'ATLDMDBO' 높은 상관계를 갖는 item IDs - 'BTMOEMEP', 'DNMPSKTB', 'LRVGFDFM', 'QRKRBYJL', 'QVLMOEYE', 'VBYCLTYZ', 'XUOIQPFL' 7개 항목
    <img width="981" height="350" alt="image" src="https://github.com/user-attachments/assets/384411f6-8b1a-4eb8-afa2-6b398540934d" />
    <img width="711" height="577" alt="image" src="https://github.com/user-attachments/assets/f8532c14-ef69-4f88-affd-739607275598" />
@@ -86,14 +90,16 @@
 ---
 
 **9. 공행성쌍 데이터 변수 분포**
+    
     - 한 item에 대한 following_item 갯수 분포 히스토그램:
+
 <img width="560" height="452" alt="image" src="https://github.com/user-attachments/assets/2083bef3-0f19-4347-883e-875c98ddcfbf" />
+
       - "best_lag 분포 히스토그램"
+      
 <img width="568" height="452" alt="image" src="https://github.com/user-attachments/assets/84c3cac6-8160-4d41-9c53-7ff33b58068a" />
 
    - max_corr 분포 히스토그램
+
 <img width="577" height="451" alt="image" src="https://github.com/user-attachments/assets/ac895eac-2627-49ed-867e-5923e282c279" />
-
-
-   - 
 
