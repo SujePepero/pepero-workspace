@@ -44,15 +44,14 @@
 **[김주연]**
 1. hs4의 code의 실제 분류명을 확인하여 아이템간의 유사성을 직접 판단할 수 있다. (원자재 <-> 완제품)
 2. weight과 value간의 관계는 단일정규분포가 아닌 4개의 클러스터가 존재했고,
-클러스터링을 통해 클러스터 안의 변수들간에 상관관계를 확인할 필요가 있었다.
-(각 클러스터는 리니어한 value, weight의 상관관계를 보이고 있다. feat. 김종구)
+클러스터링을 통해 클러스터 안의 변수들간 상관관계를 확인할 필요가 있었다.
+(각 클러스터는 Linear한 value, weight의 상관관계를 보이고 있다. feat. 김종구)
 
 **[박율영]**
-1. 무역 거래 횟수에 따른 아이템들의 범주화가 가능했고, 각 범주에 포함되는 아이템들간의
-상관관계를 조사할 필요가 있었다.
-2. 공행성쌍 데이터 분포는 기준 아이템에 대한 공행성이 있는 아이템들의 갯수 분포는 우하향 패턴을 보였다.
-공행성쌍 데이터의 최적 lag는 균등하게 분포되어있다.
-3. 공생성쌍간의 상관관계는 우하향성을 보인다.
+1. hs4 코드별 복수로 포함된 아이템들간의 상관관계를 확인했다.
+2. 무역 거래 횟수에 따른 아이템들의 범주화가 가능했고, 각 범주에 포함되는 아이템들간의 상관관계를 조사할 필요가 있었다. (feat. 김종구)
+3. 공행성쌍 데이터 분포는 기준 아이템에 대한 공행성이 있는 아이템들의 갯수 분포는 우하향 패턴을 보였다.
+공행성쌍 데이터의 최적 lag는 균등하게 분포되어 있으며, 공행성쌍 간의 상관관계는 우하향성을 보인다.
 
 ---
 
@@ -141,6 +140,8 @@
     - 예시: 기준 item ID- 'ATLDMDBO' 높은 상관계를 갖는 item IDs - 'BTMOEMEP', 'DNMPSKTB', 'LRVGFDFM', 'QRKRBYJL', 'QVLMOEYE', 'VBYCLTYZ', 'XUOIQPFL' 7개 항목
    <img width="981" height="350" alt="image" src="https://github.com/user-attachments/assets/384411f6-8b1a-4eb8-afa2-6b398540934d" />
    <img width="711" height="577" alt="image" src="https://github.com/user-attachments/assets/f8532c14-ef69-4f88-affd-739607275598" />
+   <img width="1184" height="884" alt="image" src="https://github.com/user-attachments/assets/f303822b-c5e7-4442-96f0-1ad2e0245aa9" />
+
 
 ---
 
